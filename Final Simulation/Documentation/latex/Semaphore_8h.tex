@@ -1,0 +1,90 @@
+\hypertarget{Semaphore_8h}{\section{\-Semaphore.\-h \-File \-Reference}
+\label{Semaphore_8h}\index{\-Semaphore.\-h@{\-Semaphore.\-h}}
+}
+
+
+\-A \-Documented file. \-Details.  
+
+
+{\ttfamily \#include $<$stdio.\-h$>$}\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\*
+{\ttfamily \#include $<$unistd.\-h$>$}\*
+{\ttfamily \#include $<$errno.\-h$>$}\*
+{\ttfamily \#include $<$sys/types.\-h$>$}\*
+{\ttfamily \#include $<$sys/ipc.\-h$>$}\*
+{\ttfamily \#include $<$sys/sem.\-h$>$}\*
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{Semaphore_8h_a1c8fa7d4c38544ce731c9ecdaec097fb}{open\-\_\-sem} (key\-\_\-t t, int s)
+\begin{DoxyCompactList}\small\item\em \-A function taking two arguments and returning an integer value. \end{DoxyCompactList}\item 
+void \hyperlink{Semaphore_8h_a5ac31539365d0e3192352c92262ce121}{get\-Sem} (int a)
+\begin{DoxyCompactList}\small\item\em \-A function taking one argument and having void return type. \end{DoxyCompactList}\item 
+void \hyperlink{Semaphore_8h_ae1c0ff504995333beee30a41f875dfdf}{rel\-Sem} (int d)
+\begin{DoxyCompactList}\small\item\em \-A function taking one argument and having void return type. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-A \-Documented file. \-Details. 
+
+\subsection{\-Function \-Documentation}
+\hypertarget{Semaphore_8h_a5ac31539365d0e3192352c92262ce121}{\index{\-Semaphore.\-h@{\-Semaphore.\-h}!get\-Sem@{get\-Sem}}
+\index{get\-Sem@{get\-Sem}!Semaphore.h@{\-Semaphore.\-h}}
+\subsubsection[{get\-Sem}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf get\-Sem} (
+\begin{DoxyParamCaption}
+\item[{int}]{a}
+\end{DoxyParamCaption}
+)}}\label{Semaphore_8h_a5ac31539365d0e3192352c92262ce121}
+
+
+\-A function taking one argument and having void return type. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em a} & semaphore id acquire lock over the semaphore by decreasing semaphore value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{Semaphore_8h_a1c8fa7d4c38544ce731c9ecdaec097fb}{\index{\-Semaphore.\-h@{\-Semaphore.\-h}!open\-\_\-sem@{open\-\_\-sem}}
+\index{open\-\_\-sem@{open\-\_\-sem}!Semaphore.h@{\-Semaphore.\-h}}
+\subsubsection[{open\-\_\-sem}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf open\-\_\-sem} (
+\begin{DoxyParamCaption}
+\item[{key\-\_\-t}]{t, }
+\item[{int}]{s}
+\end{DoxyParamCaption}
+)}}\label{Semaphore_8h_a1c8fa7d4c38544ce731c9ecdaec097fb}
+
+
+\-A function taking two arguments and returning an integer value. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em t} & \-Used to generate a semaphore. \\
+\hline
+{\em s} & \-Number of semaphores in a semaphore array. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+id of the semaphore 
+\end{DoxyReturn}
+\hypertarget{Semaphore_8h_ae1c0ff504995333beee30a41f875dfdf}{\index{\-Semaphore.\-h@{\-Semaphore.\-h}!rel\-Sem@{rel\-Sem}}
+\index{rel\-Sem@{rel\-Sem}!Semaphore.h@{\-Semaphore.\-h}}
+\subsubsection[{rel\-Sem}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf rel\-Sem} (
+\begin{DoxyParamCaption}
+\item[{int}]{d}
+\end{DoxyParamCaption}
+)}}\label{Semaphore_8h_ae1c0ff504995333beee30a41f875dfdf}
+
+
+\-A function taking one argument and having void return type. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em d} & release lock over the semaphore by increasing semaphore value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+void 
+\end{DoxyReturn}

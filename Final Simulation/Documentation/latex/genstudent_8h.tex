@@ -1,0 +1,134 @@
+\hypertarget{genstudent_8h}{\section{genstudent.\-h \-File \-Reference}
+\label{genstudent_8h}\index{genstudent.\-h@{genstudent.\-h}}
+}
+
+
+\-Generates student nodes and assigns random interest to them. \-Delete students after 4 years.  
+
+
+{\ttfamily \#include \char`\"{}global1.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}main\-\_\-2.\-h\char`\"{}}\*
+{\ttfamily \#include $<$cstdlib$>$}\*
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$string$>$}\*
+{\ttfamily \#include $<$stdio.\-h$>$}\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\*
+{\ttfamily \#include $<$map$>$}\*
+{\ttfamily \#include $<$utility$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+{\ttfamily \#include $<$time.\-h$>$}\*
+{\ttfamily \#include $<$algorithm$>$}\*
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{genstudent_8h_adf791cf10a08e02c8ff25374733ca48e}{randominterest\-\_\-st} (\hyperlink{structstudent}{student} $\ast$st, \hyperlink{structdept}{dept} $\ast$department)
+\begin{DoxyCompactList}\small\item\em \-A function taking two arguments and returning void. \-It assigns random interests to a student. \end{DoxyCompactList}\item 
+void \hyperlink{genstudent_8h_a6ce86bdfde20e6aa23fddb145e888c3c}{genstuof1dept} (float stupy, struct \hyperlink{structUNIV}{\-U\-N\-I\-V} $\ast$univer, struct \hyperlink{structdept}{dept} $\ast$depart, int seed, int batch)
+\begin{DoxyCompactList}\small\item\em \-A function taking five arguments and returning void. \-It generates student nodes. \end{DoxyCompactList}\item 
+void \hyperlink{genstudent_8h_a69f62b87d9c8b8296cb85f8edc13daa1}{increase\-\_\-year} ()
+\begin{DoxyCompactList}\small\item\em \-A function taking zero arguments and returning void. \-It increase the current year by one. \end{DoxyCompactList}\item 
+void \hyperlink{genstudent_8h_aae9d52caad9fb2892deeb25596cfd2ab}{kill} ()
+\begin{DoxyCompactList}\small\item\em \-A function taking zero arguments and returning void. \-It kill the students after every four year. \end{DoxyCompactList}\item 
+void \hyperlink{genstudent_8h_ad1cff4a75ce3757e7bec37b6dfd5ed96}{kill\-\_\-all} ()
+\begin{DoxyCompactList}\small\item\em \-A function taking zero arguments and returning void. \-It is called for cleanup at the end. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-Generates student nodes and assigns random interest to them. \-Delete students after 4 years. 
+
+\subsection{\-Function \-Documentation}
+\hypertarget{genstudent_8h_a6ce86bdfde20e6aa23fddb145e888c3c}{\index{genstudent.\-h@{genstudent.\-h}!genstuof1dept@{genstuof1dept}}
+\index{genstuof1dept@{genstuof1dept}!genstudent.h@{genstudent.\-h}}
+\subsubsection[{genstuof1dept}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf genstuof1dept} (
+\begin{DoxyParamCaption}
+\item[{float}]{stupy, }
+\item[{struct {\bf \-U\-N\-I\-V} $\ast$}]{univer, }
+\item[{struct {\bf dept} $\ast$}]{depart, }
+\item[{int}]{seed, }
+\item[{int}]{batch}
+\end{DoxyParamCaption}
+)}}\label{genstudent_8h_a6ce86bdfde20e6aa23fddb145e888c3c}
+
+
+\-A function taking five arguments and returning void. \-It generates student nodes. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em univer} & \-University of the student \\
+\hline
+{\em depart} & \-Department of the student \\
+\hline
+{\em seed} & \-Student random seed \\
+\hline
+{\em batch} & \-Current entry year for which students are being created \\
+\hline
+{\em stupy} & \-Student per year that need to be generated \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-Void 
+\end{DoxyReturn}
+\hypertarget{genstudent_8h_a69f62b87d9c8b8296cb85f8edc13daa1}{\index{genstudent.\-h@{genstudent.\-h}!increase\-\_\-year@{increase\-\_\-year}}
+\index{increase\-\_\-year@{increase\-\_\-year}!genstudent.h@{genstudent.\-h}}
+\subsubsection[{increase\-\_\-year}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf increase\-\_\-year} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{genstudent_8h_a69f62b87d9c8b8296cb85f8edc13daa1}
+
+
+\-A function taking zero arguments and returning void. \-It increase the current year by one. 
+
+\begin{DoxyReturn}{\-Returns}
+\-Void 
+\end{DoxyReturn}
+\hypertarget{genstudent_8h_aae9d52caad9fb2892deeb25596cfd2ab}{\index{genstudent.\-h@{genstudent.\-h}!kill@{kill}}
+\index{kill@{kill}!genstudent.h@{genstudent.\-h}}
+\subsubsection[{kill}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf kill} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{genstudent_8h_aae9d52caad9fb2892deeb25596cfd2ab}
+
+
+\-A function taking zero arguments and returning void. \-It kill the students after every four year. 
+
+\begin{DoxyReturn}{\-Returns}
+\-Void 
+\end{DoxyReturn}
+\hypertarget{genstudent_8h_ad1cff4a75ce3757e7bec37b6dfd5ed96}{\index{genstudent.\-h@{genstudent.\-h}!kill\-\_\-all@{kill\-\_\-all}}
+\index{kill\-\_\-all@{kill\-\_\-all}!genstudent.h@{genstudent.\-h}}
+\subsubsection[{kill\-\_\-all}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf kill\-\_\-all} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{genstudent_8h_ad1cff4a75ce3757e7bec37b6dfd5ed96}
+
+
+\-A function taking zero arguments and returning void. \-It is called for cleanup at the end. 
+
+\begin{DoxyReturn}{\-Returns}
+\-Void 
+\end{DoxyReturn}
+\hypertarget{genstudent_8h_adf791cf10a08e02c8ff25374733ca48e}{\index{genstudent.\-h@{genstudent.\-h}!randominterest\-\_\-st@{randominterest\-\_\-st}}
+\index{randominterest\-\_\-st@{randominterest\-\_\-st}!genstudent.h@{genstudent.\-h}}
+\subsubsection[{randominterest\-\_\-st}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf randominterest\-\_\-st} (
+\begin{DoxyParamCaption}
+\item[{{\bf student} $\ast$}]{st, }
+\item[{{\bf dept} $\ast$}]{department}
+\end{DoxyParamCaption}
+)}}\label{genstudent_8h_adf791cf10a08e02c8ff25374733ca48e}
+
+
+\-A function taking two arguments and returning void. \-It assigns random interests to a student. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em st} & \-Student node \\
+\hline
+{\em department} & \-Department of the student \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-Void 
+\end{DoxyReturn}

@@ -1,0 +1,89 @@
+\hypertarget{structstudnode}{\section{studnode \-Struct \-Reference}
+\label{structstudnode}\index{studnode@{studnode}}
+}
+
+
+\-This structure stores data of students.  
+
+
+
+
+{\ttfamily \#include $<$analyser.\-h$>$}
+
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{structstudnode_a47a0e9cc231c18330ac0d6613f2f8f8a}{name}
+\item 
+string \hyperlink{structstudnode_aad05017a47a5f1801017257761d8a7ab}{surname}
+\item 
+string \hyperlink{structstudnode_aaa56dae65b3c550e367775cbe6caafa2}{hostel}
+\item 
+string \hyperlink{structstudnode_a2a9d9cc2bbf0b51eb855f0f3d15a0b2e}{dept}
+\item 
+string \hyperlink{structstudnode_a5c692d229f1f8eb0d87870fa2ea9b424}{univ}
+\item 
+int \hyperlink{structstudnode_a8354fea88f4c23a40c5590e39128314c}{batch}
+\item 
+int \hyperlink{structstudnode_aa77be2d6f41f9047fd8fa1d1371836ec}{year}
+\item 
+int \hyperlink{structstudnode_aa2398aa0ea818023150ab650a5243c55}{room\-No}
+\item 
+int \hyperlink{structstudnode_aee7f0bb0c9449865325d74aba81ffc2f}{entryno}
+\item 
+char \hyperlink{structstudnode_a7cac821e7b06b83a0b0bb90dc3bd50d6}{floor}
+\item 
+\hypertarget{structstudnode_a838d738f2d7483016a398edaf7e5d7a2}{vector$<$ string $>$ {\bfseries interests}}\label{structstudnode_a838d738f2d7483016a398edaf7e5d7a2}
+
+\item 
+vector$<$ string $>$ \hyperlink{structstudnode_afb2fd69feeebcfe7e5808fe9c88c8f54}{courses}
+\item 
+vector$<$ int $>$ \hyperlink{structstudnode_a939146f3d86c4cf28aa1aa2c52996396}{friends}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-This structure stores data of students. 
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{structstudnode_a8354fea88f4c23a40c5590e39128314c}{\index{studnode@{studnode}!batch@{batch}}
+\index{batch@{batch}!studnode@{studnode}}
+\subsubsection[{batch}]{\setlength{\rightskip}{0pt plus 5cm}{\bf studnode\-::batch}}}\label{structstudnode_a8354fea88f4c23a40c5590e39128314c}
+\-Member 'batch' contains batch of the student \hypertarget{structstudnode_afb2fd69feeebcfe7e5808fe9c88c8f54}{\index{studnode@{studnode}!courses@{courses}}
+\index{courses@{courses}!studnode@{studnode}}
+\subsubsection[{courses}]{\setlength{\rightskip}{0pt plus 5cm}{\bf studnode\-::courses}}}\label{structstudnode_afb2fd69feeebcfe7e5808fe9c88c8f54}
+\-Member 'courses' contains courses of the student currently he/she is pursuing \hypertarget{structstudnode_a2a9d9cc2bbf0b51eb855f0f3d15a0b2e}{\index{studnode@{studnode}!dept@{dept}}
+\index{dept@{dept}!studnode@{studnode}}
+\subsubsection[{dept}]{\setlength{\rightskip}{0pt plus 5cm}{\bf studnode\-::dept}}}\label{structstudnode_a2a9d9cc2bbf0b51eb855f0f3d15a0b2e}
+\-Member 'dept' contains \-Department of the student \hypertarget{structstudnode_aee7f0bb0c9449865325d74aba81ffc2f}{\index{studnode@{studnode}!entryno@{entryno}}
+\index{entryno@{entryno}!studnode@{studnode}}
+\subsubsection[{entryno}]{\setlength{\rightskip}{0pt plus 5cm}{\bf studnode\-::entryno}}}\label{structstudnode_aee7f0bb0c9449865325d74aba81ffc2f}
+\-Member 'entryno' contains entry no of the student \hypertarget{structstudnode_a7cac821e7b06b83a0b0bb90dc3bd50d6}{\index{studnode@{studnode}!floor@{floor}}
+\index{floor@{floor}!studnode@{studnode}}
+\subsubsection[{floor}]{\setlength{\rightskip}{0pt plus 5cm}{\bf studnode\-::floor}}}\label{structstudnode_a7cac821e7b06b83a0b0bb90dc3bd50d6}
+\-Member 'floor' contains entry no of the student \hypertarget{structstudnode_a939146f3d86c4cf28aa1aa2c52996396}{\index{studnode@{studnode}!friends@{friends}}
+\index{friends@{friends}!studnode@{studnode}}
+\subsubsection[{friends}]{\setlength{\rightskip}{0pt plus 5cm}{\bf studnode\-::friends}}}\label{structstudnode_a939146f3d86c4cf28aa1aa2c52996396}
+\-Member 'firends' contains friend list of the student \hypertarget{structstudnode_aaa56dae65b3c550e367775cbe6caafa2}{\index{studnode@{studnode}!hostel@{hostel}}
+\index{hostel@{hostel}!studnode@{studnode}}
+\subsubsection[{hostel}]{\setlength{\rightskip}{0pt plus 5cm}{\bf studnode\-::hostel}}}\label{structstudnode_aaa56dae65b3c550e367775cbe6caafa2}
+\-Member 'hostel' contains hostel assigned to the student. \hypertarget{structstudnode_a47a0e9cc231c18330ac0d6613f2f8f8a}{\index{studnode@{studnode}!name@{name}}
+\index{name@{name}!studnode@{studnode}}
+\subsubsection[{name}]{\setlength{\rightskip}{0pt plus 5cm}{\bf studnode\-::name}}}\label{structstudnode_a47a0e9cc231c18330ac0d6613f2f8f8a}
+\-Member 'name' contains name of \-Student \hypertarget{structstudnode_aa2398aa0ea818023150ab650a5243c55}{\index{studnode@{studnode}!room\-No@{room\-No}}
+\index{room\-No@{room\-No}!studnode@{studnode}}
+\subsubsection[{room\-No}]{\setlength{\rightskip}{0pt plus 5cm}{\bf studnode\-::room\-No}}}\label{structstudnode_aa2398aa0ea818023150ab650a5243c55}
+\-Member 'room\-No' contains room no. in the hostel \hypertarget{structstudnode_aad05017a47a5f1801017257761d8a7ab}{\index{studnode@{studnode}!surname@{surname}}
+\index{surname@{surname}!studnode@{studnode}}
+\subsubsection[{surname}]{\setlength{\rightskip}{0pt plus 5cm}{\bf studnode\-::surname}}}\label{structstudnode_aad05017a47a5f1801017257761d8a7ab}
+\-Member 'surname' contains surname of student. \hypertarget{structstudnode_a5c692d229f1f8eb0d87870fa2ea9b424}{\index{studnode@{studnode}!univ@{univ}}
+\index{univ@{univ}!studnode@{studnode}}
+\subsubsection[{univ}]{\setlength{\rightskip}{0pt plus 5cm}{\bf studnode\-::univ}}}\label{structstudnode_a5c692d229f1f8eb0d87870fa2ea9b424}
+\-Member 'unic' contains \-University of of the student \hypertarget{structstudnode_aa77be2d6f41f9047fd8fa1d1371836ec}{\index{studnode@{studnode}!year@{year}}
+\index{year@{year}!studnode@{studnode}}
+\subsubsection[{year}]{\setlength{\rightskip}{0pt plus 5cm}{\bf studnode\-::year}}}\label{structstudnode_aa77be2d6f41f9047fd8fa1d1371836ec}
+\-Member 'year' contains the year of degree the student is pursuing 
+
+\-The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{analyser_8h}{analyser.\-h}\end{DoxyCompactItemize}

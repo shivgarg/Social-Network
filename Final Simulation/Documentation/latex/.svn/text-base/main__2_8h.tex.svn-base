@@ -1,0 +1,40 @@
+\hypertarget{main__2_8h}{\section{main\-\_\-2.\-h \-File \-Reference}
+\label{main__2_8h}\index{main\-\_\-2.\-h@{main\-\_\-2.\-h}}
+}
+
+
+\-File \-Parser.  
+
+
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$string.\-h$>$}\*
+{\ttfamily \#include $<$stdio.\-h$>$}\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\*
+{\ttfamily \#include $<$map$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+{\ttfamily \#include $<$time.\-h$>$}\*
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{main__2_8h_a6d0732d86302b6611c8663dcfb04c6ef}{set\-Enviro} ()
+\begin{DoxyCompactList}\small\item\em \-A function taking no arguments and returning an integer value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-File \-Parser. 
+
+\subsection{\-Function \-Documentation}
+\hypertarget{main__2_8h_a6d0732d86302b6611c8663dcfb04c6ef}{\index{main\-\_\-2.\-h@{main\-\_\-2.\-h}!set\-Enviro@{set\-Enviro}}
+\index{set\-Enviro@{set\-Enviro}!main_2.h@{main\-\_\-2.\-h}}
+\subsubsection[{set\-Enviro}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf set\-Enviro} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{main__2_8h_a6d0732d86302b6611c8663dcfb04c6ef}
+
+
+\-A function taking no arguments and returning an integer value. 
+
+\-This function parses the input file and stores all the data. \begin{DoxyReturn}{\-Returns}
+return value as such of no further use 
+\end{DoxyReturn}

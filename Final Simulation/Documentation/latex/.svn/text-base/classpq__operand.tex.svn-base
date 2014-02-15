@@ -1,0 +1,45 @@
+\hypertarget{classpq__operand}{\section{pq\-\_\-operand \-Class \-Reference}
+\label{classpq__operand}\index{pq\-\_\-operand@{pq\-\_\-operand}}
+}
+
+
+{\ttfamily \#include $<$\-Time\-Keeper.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{classpq__operand_a86e63c325f49ac5b12d62a7610b95b3c}{operator()} (pair$<$ int, int $>$ \&n1, pair$<$ int, int $>$ \&n2)
+\begin{DoxyCompactList}\small\item\em \-Comparater taking two pair of ints and returning a bool value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-A comparator class for prioirty queue to schedule tasks 
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classpq__operand_a86e63c325f49ac5b12d62a7610b95b3c}{\index{pq\-\_\-operand@{pq\-\_\-operand}!operator()@{operator()}}
+\index{operator()@{operator()}!pq_operand@{pq\-\_\-operand}}
+\subsubsection[{operator()}]{\setlength{\rightskip}{0pt plus 5cm}bool pq\-\_\-operand\-::operator() (
+\begin{DoxyParamCaption}
+\item[{pair$<$ int, int $>$ \&}]{n1, }
+\item[{pair$<$ int, int $>$ \&}]{n2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classpq__operand_a86e63c325f49ac5b12d62a7610b95b3c}
+
+
+\-Comparater taking two pair of ints and returning a bool value. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em n1} & \-: \-A pointer to pair of integers \\
+\hline
+{\em n2,\-:} & \-A pointer to pair of integers \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-Bool 
+\end{DoxyReturn}
+
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\-Time\-Keeper.\-h\end{DoxyCompactItemize}

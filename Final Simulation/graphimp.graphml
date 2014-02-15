@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"  
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+            xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns 
+                                http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">" 
+  <key id="d00" for="node" attr.name="Stud_Fac" attr.type="string"/>
+  <key id="d01" for="node" attr.name="Name" attr.type="string"/>
+  <key id="d02" for="node" attr.name="Surname" attr.type="string"/>
+  <key id="d03" for="node" attr.name="EntryNo." attr.type="int"/>
+  <key id="d04" for="node" attr.name="Batch" attr.type="int"/>
+  <key id="d05" for="node" attr.name="Year" attr.type="int"/>
+  <key id="d06" for="node" attr.name="RoomNo." attr.type="int"/>
+  <key id="d07" for="node" attr.name="Floor" attr.type="string"/>
+  <key id="d08" for="node" attr.name="Hostel" attr.type="string"/>
+  <key id="d09" for="node" attr.name="Department" attr.type="string"/>
+  <key id="d10" for="node" attr.name="University" attr.type="string"/>
+  <key id="d11" for="node" attr.name="Interests" attr.type="string"/>
+  <key id="d12" for="node" attr.name="Courses" attr.type="string"/>
+  <graph id="G" edgedefault="undirected">
+<node id="n0 " >
+<data key="d00">Student</data>
+<data key="d01">Edubilli</data>
+<data key="d02">Kush</data>
+<data key="d03">811</data>
+<data key="d04">2018</data>
+<data key="d05">4</data>
+<data key="d06">8</data>
+<data key="d07">C</data>
+<data key="d08">Girnar</data>
+<data key="d09">CSE</data>
+<data key="d10">IITD</data>
+<data key="d11">$Algorithms$Graphics$Networks$Systems$DistributedSystems$MachineLearning</data>
+<data key="d12">$CSL671$CSL105$CSP301$EE740</data>
+</node>
+<node id="n1 " >
+<data key="d00">Student</data>
+<data key="d01">Tapas</data>
+<data key="d02">Rai</data>
+<data key="d03">812</data>
+<data key="d04">2018</data>
+<data key="d05">4</data>
+<data key="d06">9</data>
+<data key="d07">C</data>
+<data key="d08">Girnar</data>
+<data key="d09">CSE</data>
+<data key="d10">IITD</data>
+<data key="d11">$Algorithms$Graphics$Systems$MachineLearning</data>
+<data key="d12">$CSL868$CSP301$CSL730$CSL374$EE665</data>
+</node>
+<node id="n2 " >
+<data key="d00">Student</data>
+<data key="d01">Daniel</data>
+<data key="d02">Goel</data>
+<data key="d03">813</data>
+<data key="d04">2018</data>
+<data key="d05">4</data>
+<data key="d06">5</data>
+<data key="d07">C</data>
+<data key="d08">Neelgiri</data>
+<data key="d09">CSE</data>
+<data key="d10">IITD</data>
+<data key="d11">$Systems$ParallelAlgorithms$MachineLearning</data>
+<data key="d12">$CSL868$CSL740$CSD845$CSP301$EEP301</data>
+</node>
+<node id="n3 " >
+<data key="d00">Student</data>
+<data key="d01">Amritansh</data>
+<data key="d02">Jeritiana</data>
+<data key="d03">814</data>
+<data key="d04">2018</data>
+<data key="d05">4</data>
+<data key="d06">5</data>
+<data key="d07">C</data>
+<data key="d08">Kumaon</data>
+<data key="d09">CSE</data>
+<data key="d10">IITD</data>
+<data key="d11">$Algorithms$Systems$Vision$ParallelAlgorithms</data>
+<data key="d12">$CSL671$CSL740$CSL672$EE632</data>
+</node>
+<node id="n4 " >
+<data key="d00">Student</data>
+<data key="d01">Nimit</data>
+<data key="d02">Goel</data>
+<data key="d03">815</data>
+<data key="d04">2018</data>
+<data key="d05">4</data>
+<data key="d06">7</data>
+<data key="d07">C</data>
+<data key="d08">Zanskar</data>
+<data key="d09">CSE</data>
+<data key="d10">IITD</data>
+<data key="d11">$Algorithms$Systems$Vision</data>
+<data key="d12">$CSL332$CSL633$CSL201$CSL201$MEP301</data>
+</node>
+<node id="n5 " >
+<data key="d00">Student</data>
+<data key="d01">Aashish</data>
+<data key="d02">Rahman</data>
+<data key="d03">816</data>
+<data key="d04">2018</data>
+<data key="d05">4</data>
+<data key="d06">6</data>
+<data key="d07">C</data>
+<data key="d08">Satpura</data>
+<data key="d09">CSE</data>
+<data key="d10">IITD</data>
+<data key="d11">$Algorithms$Graphics$Networks$Systems$ParallelAlgorithms$MachineLearning</data>
+<data key="d12">$CSL672$CSL762$CSL105$EE730</data>
+</node>
+<node id="n6 " >
+<data key="d00">Student</data>
+<data key="d01">Raghuvansh</data>
+<data key="d02">Bawa</data>
+<data key="d03">817</data>
+<data key="d04">2018</data>
+<data key="d05">4</data>
+<data key="d06">7</data>
+<data key="d07">C</data>
+<data key="d08">Satpura</data>
+<data key="d09">CSE</data>
+<data key="d10">IITD</data>
+<data key="d11">$Algorithms$Systems$Vision$WirelessNetworks$ParallelAlgorithms</data>
+<data key="d12">$CSL671$CSL374$CSL762$EE865</data>
+</node>
+<node id="n7 " >
+<data key="d00">Student</data>
+<data key="d01">Raghuvanshi</data>
+<data key="d02">Bawa</data>
+<data key="d03">818</data>
+<data key="d04">2018</data>
+<data key="d05">4</data>
+<data key="d06">7</data>
+<data key="d07">C</data>
+<data key="d08">Satpura</data>
+<data key="d09">CSE</data>
+<data key="d10">IITD</data>
+<data key="d11">$Algorithms$Systems$Vision$WirelessNetworks$ParallelAlgorithms</data>
+<data key="d12">$CSL671$CSL374$CSL762$EE865</data>
+</node>
+<node id="n8 " >
+<data key="d00">Student</data>
+<data key="d01">Raghuvanshe</data>
+<data key="d02">Bawa</data>
+<data key="d03">819</data>
+<data key="d04">2018</data>
+<data key="d05">4</data>
+<data key="d06">7</data>
+<data key="d07">C</data>
+<data key="d08">Satpura</data>
+<data key="d09">CSE</data>
+<data key="d10">IITD</data>
+<data key="d11">$Algorithms$Systems$Vision$WirelessNetworks$ParallelAlgorithms</data>
+<data key="d12">$CSL671$CSL374$CSL762$EE865</data>
+</node>
+<edge id="e0" source="n0" target="n1"/>
+<edge id="e1" source="n0" target="n2"/>
+<edge id="e2" source="n1" target="n0"/>
+<edge id="e3" source="n1" target="n3"/>
+<edge id="e4" source="n2" target="n0"/>
+<edge id="e5" source="n2" target="n3"/>
+<edge id="e6" source="n3" target="n1"/>
+<edge id="e7" source="n3" target="n2"/>
+<edge id="e8" source="n3" target="n4"/>
+<edge id="e9" source="n3" target="n5"/>
+<edge id="e10" source="n4" target="n3"/>
+<edge id="e11" source="n4" target="n6"/>
+<edge id="e12" source="n5" target="n3"/>
+<edge id="e13" source="n5" target="n6"/>
+<edge id="e14" source="n6" target="n4"/>
+<edge id="e15" source="n6" target="n5"/>
+  </graph>
+</graphml>

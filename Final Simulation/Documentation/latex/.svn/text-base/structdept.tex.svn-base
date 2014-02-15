@@ -1,0 +1,41 @@
+\hypertarget{structdept}{\section{dept \-Struct \-Reference}
+\label{structdept}\index{dept@{dept}}
+}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structdept_a01bf5ea110a81ac60f3cf46f0ef45d74}{char {\bfseries name} \mbox{[}10\mbox{]}}\label{structdept_a01bf5ea110a81ac60f3cf46f0ef45d74}
+
+\item 
+\hypertarget{structdept_aa02d5cf75a5dad61cd243d873ba472ea}{float {\bfseries numfac}}\label{structdept_aa02d5cf75a5dad61cd243d873ba472ea}
+
+\item 
+\hypertarget{structdept_a27cc8ba8fd22c255215ca27e09c818e4}{float {\bfseries studperyr}}\label{structdept_a27cc8ba8fd22c255215ca27e09c818e4}
+
+\item 
+\hypertarget{structdept_a03a4ba260fd314156b15384b89184f63}{float {\bfseries semdeptcourse}}\label{structdept_a03a4ba260fd314156b15384b89184f63}
+
+\item 
+\hypertarget{structdept_af56d6e7ea9c8f796f7e27812e1c9c8fe}{float {\bfseries semnondeptcourses}}\label{structdept_af56d6e7ea9c8f796f7e27812e1c9c8fe}
+
+\item 
+\hypertarget{structdept_a9b5e133e183a8f209d285618ac1acb52}{vector$<$ \hyperlink{structcourse}{course} $\ast$ $>$ {\bfseries depcourses}}\label{structdept_a9b5e133e183a8f209d285618ac1acb52}
+
+\item 
+\hypertarget{structdept_adc8c02e50e5238af4f1794fdc45735d3}{vector$<$ \hyperlink{structcourse}{course} $\ast$ $>$ {\bfseries nondepcourses}}\label{structdept_adc8c02e50e5238af4f1794fdc45735d3}
+
+\item 
+\hypertarget{structdept_af5b698d8962e10e926634ac9b717cb89}{vector$<$ \hyperlink{structfaculty}{faculty} $\ast$ $>$ {\bfseries fac}}\label{structdept_af5b698d8962e10e926634ac9b717cb89}
+
+\item 
+\hypertarget{structdept_a65e756bf8e0cc16a3e51e5ab01d2e16f}{vector$<$ \hyperlink{structstudent}{student} $\ast$ $>$ {\bfseries dep\-\_\-stud}}\label{structdept_a65e756bf8e0cc16a3e51e5ab01d2e16f}
+
+\item 
+\hypertarget{structdept_aac4e05f471dea00699d853e3fb838131}{map$<$ \hyperlink{structinterest}{interest} $\ast$, float $>$ {\bfseries interests}}\label{structdept_aac4e05f471dea00699d853e3fb838131}
+
+\end{DoxyCompactItemize}
+
+
+\-The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{global1_8h}{global1.\-h}\end{DoxyCompactItemize}

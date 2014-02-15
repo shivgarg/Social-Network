@@ -1,0 +1,70 @@
+\hypertarget{genfac_8h}{\section{genfac.\-h \-File \-Reference}
+\label{genfac_8h}\index{genfac.\-h@{genfac.\-h}}
+}
+
+
+\-Generates faculty nodes and assigns random interest to them \-Details.  
+
+
+{\ttfamily \#include \char`\"{}global1.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}main\-\_\-2.\-h\char`\"{}}\*
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{genfac_8h_a691f06c7969cd0e33f21d2cc6b2e83a4}{randominterest\-\_\-fac} (\hyperlink{structfaculty}{faculty} $\ast$fc, \hyperlink{structdept}{dept} $\ast$department)
+\begin{DoxyCompactList}\small\item\em \-A function taking two arguments and returning void. \-It assigns random interests to a faculty from the interests of his department. \end{DoxyCompactList}\item 
+void \hyperlink{genfac_8h_a82fc734e9a251c71ecfd04cd6b70f0de}{genfacof1dept} (struct \hyperlink{structUNIV}{\-U\-N\-I\-V} $\ast$univer, struct \hyperlink{structdept}{dept} $\ast$depart, int seed)
+\begin{DoxyCompactList}\small\item\em \-A function taking three arguments and returning void. \-Generates faculty nodes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-Generates faculty nodes and assigns random interest to them \-Details. 
+
+\subsection{\-Function \-Documentation}
+\hypertarget{genfac_8h_a82fc734e9a251c71ecfd04cd6b70f0de}{\index{genfac.\-h@{genfac.\-h}!genfacof1dept@{genfacof1dept}}
+\index{genfacof1dept@{genfacof1dept}!genfac.h@{genfac.\-h}}
+\subsubsection[{genfacof1dept}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf genfacof1dept} (
+\begin{DoxyParamCaption}
+\item[{struct {\bf \-U\-N\-I\-V} $\ast$}]{univer, }
+\item[{struct {\bf dept} $\ast$}]{depart, }
+\item[{int}]{seed}
+\end{DoxyParamCaption}
+)}}\label{genfac_8h_a82fc734e9a251c71ecfd04cd6b70f0de}
+
+
+\-A function taking three arguments and returning void. \-Generates faculty nodes. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em seed} & \-Random \-Seed \-Integer \\
+\hline
+{\em depart} & \-Department for which faculty are generated \\
+\hline
+{\em univ} & \-University for which faculty are generated \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-Void 
+\end{DoxyReturn}
+\hypertarget{genfac_8h_a691f06c7969cd0e33f21d2cc6b2e83a4}{\index{genfac.\-h@{genfac.\-h}!randominterest\-\_\-fac@{randominterest\-\_\-fac}}
+\index{randominterest\-\_\-fac@{randominterest\-\_\-fac}!genfac.h@{genfac.\-h}}
+\subsubsection[{randominterest\-\_\-fac}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf randominterest\-\_\-fac} (
+\begin{DoxyParamCaption}
+\item[{{\bf faculty} $\ast$}]{fc, }
+\item[{{\bf dept} $\ast$}]{department}
+\end{DoxyParamCaption}
+)}}\label{genfac_8h_a691f06c7969cd0e33f21d2cc6b2e83a4}
+
+
+\-A function taking two arguments and returning void. \-It assigns random interests to a faculty from the interests of his department. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em fc} & \-Faculty node \\
+\hline
+{\em department} & \-Department of the faculty \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-Void 
+\end{DoxyReturn}

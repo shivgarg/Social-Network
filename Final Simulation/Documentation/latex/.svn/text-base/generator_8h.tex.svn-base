@@ -1,0 +1,157 @@
+\hypertarget{generator_8h}{\section{generator.\-h \-File \-Reference}
+\label{generator_8h}\index{generator.\-h@{generator.\-h}}
+}
+
+
+\-A \-Documented file. \-Details.  
+
+
+{\ttfamily \#include $<$pthread.\-h$>$}\*
+{\ttfamily \#include $<$unistd.\-h$>$}\*
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$sys/types.\-h$>$}\*
+{\ttfamily \#include $<$errno.\-h$>$}\*
+{\ttfamily \#include $<$stdio.\-h$>$}\*
+{\ttfamily \#include $<$sys/wait.\-h$>$}\*
+{\ttfamily \#include $<$sys/stat.\-h$>$}\*
+{\ttfamily \#include $<$fcntl.\-h$>$}\*
+{\ttfamily \#include $<$string.\-h$>$}\*
+{\ttfamily \#include $<$typeinfo$>$}\*
+{\ttfamily \#include $<$utility$>$}\*
+{\ttfamily \#include $<$sys/mman.\-h$>$}\*
+{\ttfamily \#include \char`\"{}graphml.\-h\char`\"{}}\*
+{\ttfamily \#include $<$queue$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+{\ttfamily \#include \char`\"{}gen\-Friend.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}main\-\_\-2.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}message\-\_\-temp.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}genstudent.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}gen\-Course.\-h\char`\"{}}\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\*
+{\ttfamily \#include $<$map$>$}\*
+{\ttfamily \#include \char`\"{}genfac.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}\-Semaphore.\-h\char`\"{}}\*
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void $\ast$ \hyperlink{generator_8h_a1f08b25c1a44025b28c6a2b2d15400a2}{generate\-Faculty} (void $\ast$args)
+\begin{DoxyCompactList}\small\item\em \-A function taking one arguments and returning void $\ast$. \end{DoxyCompactList}\item 
+void $\ast$ \hyperlink{generator_8h_a2ffe365f393e1258badb16ad8a462a1f}{generate\-Students} (void $\ast$args)
+\begin{DoxyCompactList}\small\item\em \-A function taking one arguments and returning void $\ast$. \end{DoxyCompactList}\item 
+void $\ast$ \hyperlink{generator_8h_a6f0d8f4fe22f11afee6e507016226ad7}{generate\-Courses} (void $\ast$args)
+\begin{DoxyCompactList}\small\item\em \-A function taking one arguments and returning void $\ast$. \end{DoxyCompactList}\item 
+void $\ast$ \hyperlink{generator_8h_ad257d850956b4f1df152c3e88bda44c3}{gen\-Fen} (void $\ast$args)
+\begin{DoxyCompactList}\small\item\em \-A function taking one arguments and returning void $\ast$. \end{DoxyCompactList}\item 
+void $\ast$ \hyperlink{generator_8h_a34bcee5d75196e94afa20b5160a8abdc}{readpp} (void $\ast$args)
+\begin{DoxyCompactList}\small\item\em \-A function taking one arguments and returning void $\ast$. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-A \-Documented file. \-Details. 
+
+\subsection{\-Function \-Documentation}
+\hypertarget{generator_8h_a6f0d8f4fe22f11afee6e507016226ad7}{\index{generator.\-h@{generator.\-h}!generate\-Courses@{generate\-Courses}}
+\index{generate\-Courses@{generate\-Courses}!generator.h@{generator.\-h}}
+\subsubsection[{generate\-Courses}]{\setlength{\rightskip}{0pt plus 5cm}void$\ast$ {\bf generate\-Courses} (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{args}
+\end{DoxyParamCaption}
+)}}\label{generator_8h_a6f0d8f4fe22f11afee6e507016226ad7}
+
+
+\-A function taking one arguments and returning void $\ast$. 
+
+\-It calls the generate courses function and sends alarm request to timekeeper
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em args} & given due to pthread\-\_\-create. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+void $\ast$ due to pthread. 
+\end{DoxyReturn}
+\hypertarget{generator_8h_a1f08b25c1a44025b28c6a2b2d15400a2}{\index{generator.\-h@{generator.\-h}!generate\-Faculty@{generate\-Faculty}}
+\index{generate\-Faculty@{generate\-Faculty}!generator.h@{generator.\-h}}
+\subsubsection[{generate\-Faculty}]{\setlength{\rightskip}{0pt plus 5cm}void$\ast$ {\bf generate\-Faculty} (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{args}
+\end{DoxyParamCaption}
+)}}\label{generator_8h_a1f08b25c1a44025b28c6a2b2d15400a2}
+
+
+\-A function taking one arguments and returning void $\ast$. 
+
+\-It calls the generate faculty function and sends alarm request to timekeeper
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em args} & given due to pthread\-\_\-create. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+void $\ast$ due to pthread. 
+\end{DoxyReturn}
+\hypertarget{generator_8h_a2ffe365f393e1258badb16ad8a462a1f}{\index{generator.\-h@{generator.\-h}!generate\-Students@{generate\-Students}}
+\index{generate\-Students@{generate\-Students}!generator.h@{generator.\-h}}
+\subsubsection[{generate\-Students}]{\setlength{\rightskip}{0pt plus 5cm}void$\ast$ {\bf generate\-Students} (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{args}
+\end{DoxyParamCaption}
+)}}\label{generator_8h_a2ffe365f393e1258badb16ad8a462a1f}
+
+
+\-A function taking one arguments and returning void $\ast$. 
+
+\-It calls the generate \-Students function and sends alarm request to timekeeper
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em args} & given due to pthread\-\_\-create. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+void $\ast$ due to pthread. 
+\end{DoxyReturn}
+\hypertarget{generator_8h_ad257d850956b4f1df152c3e88bda44c3}{\index{generator.\-h@{generator.\-h}!gen\-Fen@{gen\-Fen}}
+\index{gen\-Fen@{gen\-Fen}!generator.h@{generator.\-h}}
+\subsubsection[{gen\-Fen}]{\setlength{\rightskip}{0pt plus 5cm}void$\ast$ {\bf gen\-Fen} (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{args}
+\end{DoxyParamCaption}
+)}}\label{generator_8h_ad257d850956b4f1df152c3e88bda44c3}
+
+
+\-A function taking one arguments and returning void $\ast$. 
+
+\-It calls the generate friends function and sends alarm request to timekeeper
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em args} & given due to pthread\-\_\-create. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+void $\ast$ due to pthread. 
+\end{DoxyReturn}
+\hypertarget{generator_8h_a34bcee5d75196e94afa20b5160a8abdc}{\index{generator.\-h@{generator.\-h}!readpp@{readpp}}
+\index{readpp@{readpp}!generator.h@{generator.\-h}}
+\subsubsection[{readpp}]{\setlength{\rightskip}{0pt plus 5cm}void$\ast$ {\bf readpp} (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{args}
+\end{DoxyParamCaption}
+)}}\label{generator_8h_a34bcee5d75196e94afa20b5160a8abdc}
+
+
+\-A function taking one arguments and returning void $\ast$. 
+
+\-It recieves message from timekeeper and signals the thread
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em args} & it takes parameter simulation run time. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+void $\ast$ due to pthread. 
+\end{DoxyReturn}

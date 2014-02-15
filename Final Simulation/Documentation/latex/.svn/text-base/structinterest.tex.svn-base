@@ -1,0 +1,41 @@
+\hypertarget{structinterest}{\section{interest \-Struct \-Reference}
+\label{structinterest}\index{interest@{interest}}
+}
+
+
+\-This structure stores all the intersets.  
+
+
+
+
+{\ttfamily \#include $<$global1.\-h$>$}
+
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+char \hyperlink{structinterest_a92ad14a1e0add2231b55593c5939383f}{name} \mbox{[}90\mbox{]}
+\item 
+vector$<$ \hyperlink{structstudent}{student} $\ast$ $>$ \hyperlink{structinterest_a8e0fd6edf9d01b082b324c51e6856b79}{interest\-\_\-stud}
+\item 
+vector$<$ \hyperlink{structfaculty}{faculty} $\ast$ $>$ \hyperlink{structinterest_a19e8aa2cc4abff18e329f6a2fbcaa07c}{interest\-\_\-fac}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-This structure stores all the intersets. 
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{structinterest_a19e8aa2cc4abff18e329f6a2fbcaa07c}{\index{interest@{interest}!interest\-\_\-fac@{interest\-\_\-fac}}
+\index{interest\-\_\-fac@{interest\-\_\-fac}!interest@{interest}}
+\subsubsection[{interest\-\_\-fac}]{\setlength{\rightskip}{0pt plus 5cm}{\bf interest\-::interest\-\_\-fac}}}\label{structinterest_a19e8aa2cc4abff18e329f6a2fbcaa07c}
+\-Member 'interest\-\_\-fac' contains list of faculty with that interest. \hypertarget{structinterest_a8e0fd6edf9d01b082b324c51e6856b79}{\index{interest@{interest}!interest\-\_\-stud@{interest\-\_\-stud}}
+\index{interest\-\_\-stud@{interest\-\_\-stud}!interest@{interest}}
+\subsubsection[{interest\-\_\-stud}]{\setlength{\rightskip}{0pt plus 5cm}{\bf interest\-::interest\-\_\-stud}}}\label{structinterest_a8e0fd6edf9d01b082b324c51e6856b79}
+\-Member 'interest\-\_\-stud' contains list of students with that interest. \hypertarget{structinterest_a92ad14a1e0add2231b55593c5939383f}{\index{interest@{interest}!name@{name}}
+\index{name@{name}!interest@{interest}}
+\subsubsection[{name}]{\setlength{\rightskip}{0pt plus 5cm}{\bf interest\-::name}}}\label{structinterest_a92ad14a1e0add2231b55593c5939383f}
+\-Member 'name' contains name of interest 
+
+\-The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{global1_8h}{global1.\-h}\end{DoxyCompactItemize}

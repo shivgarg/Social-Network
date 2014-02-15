@@ -1,0 +1,177 @@
+\hypertarget{classgraph}{\section{graph \-Class \-Reference}
+\label{classgraph}\index{graph@{graph}}
+}
+
+
+\-A graph class.  
+
+
+
+
+{\ttfamily \#include $<$global1.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classgraph_abde5b9460faac0cc42ce09b983d54f39}{\hyperlink{classgraph_abde5b9460faac0cc42ce09b983d54f39}{graph} (int i)}\label{classgraph_abde5b9460faac0cc42ce09b983d54f39}
+
+\begin{DoxyCompactList}\small\item\em \-A constructor. \end{DoxyCompactList}\item 
+\hypertarget{classgraph_aeb62eaf197cdcb4800fa016eebc3d55a}{\hyperlink{classgraph_aeb62eaf197cdcb4800fa016eebc3d55a}{$\sim$graph} ()}\label{classgraph_aeb62eaf197cdcb4800fa016eebc3d55a}
+
+\begin{DoxyCompactList}\small\item\em \-A constructor. \end{DoxyCompactList}\item 
+void \hyperlink{classgraph_a53788c23ffdf63fc0c331dda8713e0dc}{create\-\_\-edge} (\hyperlink{structstudent}{student} $\ast$v1, \hyperlink{structstudent}{student} $\ast$v2)
+\begin{DoxyCompactList}\small\item\em \-A normal member taking two arguments and returning a void value. \end{DoxyCompactList}\item 
+void \hyperlink{classgraph_aab24ab523d3de5b634e528c3db3fcb36}{del\-\_\-edge} (\hyperlink{structstudent}{student} $\ast$v1, \hyperlink{structstudent}{student} $\ast$v2)
+\begin{DoxyCompactList}\small\item\em \-A normal member taking two arguments and returning a void value. \end{DoxyCompactList}\item 
+int \hyperlink{classgraph_adf8db03ee515b2f600f77173652b6498}{no\-\_\-of\-\_\-friends} (\hyperlink{structstudent}{student} $\ast$v1)
+\begin{DoxyCompactList}\small\item\em \-A normal member taking one argument and returning an int value. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{classgraph_a19ae71afcb4e747414c911e79feb0003}{list\-\_\-of\-\_\-friends} (\hyperlink{structstudent}{student} $\ast$v2)
+\begin{DoxyCompactList}\small\item\em \-A normal member taking one argument and returning an int array. \end{DoxyCompactList}\item 
+bool \hyperlink{classgraph_a41530d74d2caa64867053b7e1e92351a}{already\-\_\-friends} (\hyperlink{structstudent}{student} $\ast$v1, \hyperlink{structstudent}{student} $\ast$v2)
+\begin{DoxyCompactList}\small\item\em \-A normal member taking two arguments and returning a bool value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classgraph_ac39e3b2f525262b0848aeea8b9aad99e}{numvertices}
+\begin{DoxyCompactList}\small\item\em number of vertices variable. \end{DoxyCompactList}\item 
+int \hyperlink{classgraph_a47faa0ae19e64f880826b450ff7e189e}{numedges}
+\begin{DoxyCompactList}\small\item\em number of edges variable. \end{DoxyCompactList}\item 
+\hypertarget{classgraph_a8f1ae2d19ae0295765673a00edf365e0}{bool $\ast$$\ast$ {\bfseries graphmatrix}}\label{classgraph_a8f1ae2d19ae0295765673a00edf365e0}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-A graph class. 
+
+class description. 
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classgraph_a41530d74d2caa64867053b7e1e92351a}{\index{graph@{graph}!already\-\_\-friends@{already\-\_\-friends}}
+\index{already\-\_\-friends@{already\-\_\-friends}!graph@{graph}}
+\subsubsection[{already\-\_\-friends}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf graph\-::already\-\_\-friends} (
+\begin{DoxyParamCaption}
+\item[{{\bf student} $\ast$}]{v1, }
+\item[{{\bf student} $\ast$}]{v2}
+\end{DoxyParamCaption}
+)}}\label{classgraph_a41530d74d2caa64867053b7e1e92351a}
+
+
+\-A normal member taking two arguments and returning a bool value. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em v1} & a student. \\
+\hline
+{\em v2} & a student. \-Checks whether the two people are already friends or not. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{classgraph_a53788c23ffdf63fc0c331dda8713e0dc}{\index{graph@{graph}!create\-\_\-edge@{create\-\_\-edge}}
+\index{create\-\_\-edge@{create\-\_\-edge}!graph@{graph}}
+\subsubsection[{create\-\_\-edge}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf graph\-::create\-\_\-edge} (
+\begin{DoxyParamCaption}
+\item[{{\bf student} $\ast$}]{v1, }
+\item[{{\bf student} $\ast$}]{v2}
+\end{DoxyParamCaption}
+)}}\label{classgraph_a53788c23ffdf63fc0c331dda8713e0dc}
+
+
+\-A normal member taking two arguments and returning a void value. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em v1} & first student. \\
+\hline
+{\em v2} & second student. \-Adds student 1 to friendlist of 2 and vice-\/versa \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{classgraph_aab24ab523d3de5b634e528c3db3fcb36}{\index{graph@{graph}!del\-\_\-edge@{del\-\_\-edge}}
+\index{del\-\_\-edge@{del\-\_\-edge}!graph@{graph}}
+\subsubsection[{del\-\_\-edge}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf graph\-::del\-\_\-edge} (
+\begin{DoxyParamCaption}
+\item[{{\bf student} $\ast$}]{v1, }
+\item[{{\bf student} $\ast$}]{v2}
+\end{DoxyParamCaption}
+)}}\label{classgraph_aab24ab523d3de5b634e528c3db3fcb36}
+
+
+\-A normal member taking two arguments and returning a void value. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em v1} & first student. \\
+\hline
+{\em v2} & second student. \-Removes student v1 to friendlist of v2 and vice-\/versa \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{classgraph_a19ae71afcb4e747414c911e79feb0003}{\index{graph@{graph}!list\-\_\-of\-\_\-friends@{list\-\_\-of\-\_\-friends}}
+\index{list\-\_\-of\-\_\-friends@{list\-\_\-of\-\_\-friends}!graph@{graph}}
+\subsubsection[{list\-\_\-of\-\_\-friends}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ {\bf graph\-::list\-\_\-of\-\_\-friends} (
+\begin{DoxyParamCaption}
+\item[{{\bf student} $\ast$}]{v2}
+\end{DoxyParamCaption}
+)}}\label{classgraph_a19ae71afcb4e747414c911e79feb0003}
+
+
+\-A normal member taking one argument and returning an int array. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em v1} & a student. \-Gives all the friends of student v1 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{classgraph_adf8db03ee515b2f600f77173652b6498}{\index{graph@{graph}!no\-\_\-of\-\_\-friends@{no\-\_\-of\-\_\-friends}}
+\index{no\-\_\-of\-\_\-friends@{no\-\_\-of\-\_\-friends}!graph@{graph}}
+\subsubsection[{no\-\_\-of\-\_\-friends}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf graph\-::no\-\_\-of\-\_\-friends} (
+\begin{DoxyParamCaption}
+\item[{{\bf student} $\ast$}]{v1}
+\end{DoxyParamCaption}
+)}}\label{classgraph_adf8db03ee515b2f600f77173652b6498}
+
+
+\-A normal member taking one argument and returning an int value. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em v1} & a student. \-Gives no. of friends of student v1 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+void 
+\end{DoxyReturn}
+
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{classgraph_a47faa0ae19e64f880826b450ff7e189e}{\index{graph@{graph}!numedges@{numedges}}
+\index{numedges@{numedges}!graph@{graph}}
+\subsubsection[{numedges}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf graph\-::numedges}}}\label{classgraph_a47faa0ae19e64f880826b450ff7e189e}
+
+
+number of edges variable. 
+
+gives estimate of no. of friends \hypertarget{classgraph_ac39e3b2f525262b0848aeea8b9aad99e}{\index{graph@{graph}!numvertices@{numvertices}}
+\index{numvertices@{numvertices}!graph@{graph}}
+\subsubsection[{numvertices}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf graph\-::numvertices}}}\label{classgraph_ac39e3b2f525262b0848aeea8b9aad99e}
+
+
+number of vertices variable. 
+
+would be same as no. of students 
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{global1_8h}{global1.\-h}\item 
+graph.\-cpp\item 
+main.\-cpp\end{DoxyCompactItemize}

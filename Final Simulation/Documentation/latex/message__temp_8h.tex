@@ -1,0 +1,102 @@
+\hypertarget{message__temp_8h}{\section{message\-\_\-temp.\-h \-File \-Reference}
+\label{message__temp_8h}\index{message\-\_\-temp.\-h@{message\-\_\-temp.\-h}}
+}
+
+
+\-A \-Documented file. \-Details.  
+
+
+{\ttfamily \#include $<$pthread.\-h$>$}\*
+{\ttfamily \#include $<$sys/wait.\-h$>$}\*
+{\ttfamily \#include $<$sys/types.\-h$>$}\*
+{\ttfamily \#include $<$unistd.\-h$>$}\*
+{\ttfamily \#include $<$sys/ipc.\-h$>$}\*
+{\ttfamily \#include $<$sys/msg.\-h$>$}\*
+{\ttfamily \#include $<$string.\-h$>$}\*
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$stdio.\-h$>$}\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\*
+\subsection*{\-Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structmymsgbuf}{mymsgbuf}
+\begin{DoxyCompactList}\small\item\em \-This structure stores messgae struct for message queue. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{message__temp_8h_a2d161272adef2a6c3780b6f2150ec85b}{open\-\_\-queue} (key\-\_\-t t)
+\begin{DoxyCompactList}\small\item\em \-A function taking one arguments and returning an integer value. \end{DoxyCompactList}\item 
+int \hyperlink{message__temp_8h_aead3e8ef4cb9128a12a7d91d0f8d4223}{send\-\_\-msg} (int t, struct \hyperlink{structmymsgbuf}{mymsgbuf} $\ast$s)
+\begin{DoxyCompactList}\small\item\em \-A function taking two arguments and returning an integer value. \end{DoxyCompactList}\item 
+int \hyperlink{message__temp_8h_a166b26a683617581f8f78f589f16aa1c}{rec\-\_\-msg} (int, struct \hyperlink{structmymsgbuf}{mymsgbuf} $\ast$, long)
+\begin{DoxyCompactList}\small\item\em \-A function taking two arguments and returning an integer value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-A \-Documented file. \-Details. 
+
+\subsection{\-Function \-Documentation}
+\hypertarget{message__temp_8h_a2d161272adef2a6c3780b6f2150ec85b}{\index{message\-\_\-temp.\-h@{message\-\_\-temp.\-h}!open\-\_\-queue@{open\-\_\-queue}}
+\index{open\-\_\-queue@{open\-\_\-queue}!message_temp.h@{message\-\_\-temp.\-h}}
+\subsubsection[{open\-\_\-queue}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf open\-\_\-queue} (
+\begin{DoxyParamCaption}
+\item[{key\-\_\-t}]{t}
+\end{DoxyParamCaption}
+)}}\label{message__temp_8h_a2d161272adef2a6c3780b6f2150ec85b}
+
+
+\-A function taking one arguments and returning an integer value. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em t} & \-Used as a key for message queue. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+id of the message queue. 
+\end{DoxyReturn}
+\hypertarget{message__temp_8h_a166b26a683617581f8f78f589f16aa1c}{\index{message\-\_\-temp.\-h@{message\-\_\-temp.\-h}!rec\-\_\-msg@{rec\-\_\-msg}}
+\index{rec\-\_\-msg@{rec\-\_\-msg}!message_temp.h@{message\-\_\-temp.\-h}}
+\subsubsection[{rec\-\_\-msg}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf rec\-\_\-msg} (
+\begin{DoxyParamCaption}
+\item[{int}]{, }
+\item[{struct {\bf mymsgbuf} $\ast$}]{, }
+\item[{long}]{}
+\end{DoxyParamCaption}
+)}}\label{message__temp_8h_a166b26a683617581f8f78f589f16aa1c}
+
+
+\-A function taking two arguments and returning an integer value. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em t} & queue id to identify the message queue \\
+\hline
+{\em s} & struct pointer in which message is to recieved \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+integer 
+\end{DoxyReturn}
+\hypertarget{message__temp_8h_aead3e8ef4cb9128a12a7d91d0f8d4223}{\index{message\-\_\-temp.\-h@{message\-\_\-temp.\-h}!send\-\_\-msg@{send\-\_\-msg}}
+\index{send\-\_\-msg@{send\-\_\-msg}!message_temp.h@{message\-\_\-temp.\-h}}
+\subsubsection[{send\-\_\-msg}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf send\-\_\-msg} (
+\begin{DoxyParamCaption}
+\item[{int}]{t, }
+\item[{struct {\bf mymsgbuf} $\ast$}]{s}
+\end{DoxyParamCaption}
+)}}\label{message__temp_8h_aead3e8ef4cb9128a12a7d91d0f8d4223}
+
+
+\-A function taking two arguments and returning an integer value. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em t} & queue id to identify the message queue \\
+\hline
+{\em s} & struct pointer which has to be sent over queue \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+1 if message sending is successful 
+\end{DoxyReturn}

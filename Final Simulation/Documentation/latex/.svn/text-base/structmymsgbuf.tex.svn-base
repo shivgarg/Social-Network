@@ -1,0 +1,32 @@
+\hypertarget{structmymsgbuf}{\section{mymsgbuf \-Struct \-Reference}
+\label{structmymsgbuf}\index{mymsgbuf@{mymsgbuf}}
+}
+
+
+\-This structure stores messgae struct for message queue.  
+
+
+
+
+{\ttfamily \#include $<$message\-\_\-temp.\-h$>$}
+
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structmymsgbuf_a21ef64f89f1608c1f00ba90aaa2f05a9}{long {\bfseries mtype}}\label{structmymsgbuf_a21ef64f89f1608c1f00ba90aaa2f05a9}
+
+\item 
+\hypertarget{structmymsgbuf_a7df0ef235f6968e408aafe66b544a723}{int {\bfseries thdid}}\label{structmymsgbuf_a7df0ef235f6968e408aafe66b544a723}
+
+\item 
+\hypertarget{structmymsgbuf_aa85fd5c53a5192407d6f54e70065ea10}{int {\bfseries waketime}}\label{structmymsgbuf_aa85fd5c53a5192407d6f54e70065ea10}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-This structure stores messgae struct for message queue. 
+
+\-The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{message__temp_8h}{message\-\_\-temp.\-h}\end{DoxyCompactItemize}

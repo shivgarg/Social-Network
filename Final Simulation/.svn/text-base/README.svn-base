@@ -1,0 +1,4 @@
+
+makefile compiles both the parts. run.sh for part a and run2.sh for part b 
+run.sh takes no. of years as parameter.
+run2.sh takes no parameter.

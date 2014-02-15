@@ -1,0 +1,58 @@
+\hypertarget{analyser_8h}{\section{analyser.\-h \-File \-Reference}
+\label{analyser_8h}\index{analyser.\-h@{analyser.\-h}}
+}
+
+
+\-A \-Documented file. \-Details.  
+
+
+{\ttfamily \#include $<$string$>$}\*
+{\ttfamily \#include $<$limits$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$fstream$>$}\*
+{\ttfamily \#include $<$stdio.\-h$>$}\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\*
+{\ttfamily \#include $<$string.\-h$>$}\*
+{\ttfamily \#include $<$map$>$}\*
+\subsection*{\-Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structstudnode}{studnode}
+\begin{DoxyCompactList}\small\item\em \-This structure stores data of students. \end{DoxyCompactList}\item 
+struct \hyperlink{structfacnode}{facnode}
+\begin{DoxyCompactList}\small\item\em \-This structure stores data of \-Faculty. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{analyser_8h_a7925a52c8d88fa78773d41d49064de76}{int {\bfseries shortpath} (int id1, int id2)}\label{analyser_8h_a7925a52c8d88fa78773d41d49064de76}
+
+\item 
+\hypertarget{analyser_8h_a4bd5e7d17f1882ef787b0765eb09854c}{int {\bfseries floyd} ()}\label{analyser_8h_a4bd5e7d17f1882ef787b0765eb09854c}
+
+\item 
+\hypertarget{analyser_8h_a50e672b37772343fa14a64e0d5b9273e}{void {\bfseries shortest\-\_\-path} (int i, int j)}\label{analyser_8h_a50e672b37772343fa14a64e0d5b9273e}
+
+\item 
+\hypertarget{analyser_8h_aeb2fb180b131ebe305e3dd25e42143cb}{void {\bfseries list\-\_\-short\-\_\-path} (int i, int j)}\label{analyser_8h_aeb2fb180b131ebe305e3dd25e42143cb}
+
+\item 
+\hypertarget{analyser_8h_a0239fa19a26e015557edcd85aef9ec6c}{int {\bfseries importance} (int i)}\label{analyser_8h_a0239fa19a26e015557edcd85aef9ec6c}
+
+\item 
+\hypertarget{analyser_8h_ac1dcf7c4685383d74ab2e76e81463083}{void {\bfseries moreimp} (int i)}\label{analyser_8h_ac1dcf7c4685383d74ab2e76e81463083}
+
+\item 
+\hypertarget{analyser_8h_a6d3d23cf42b4c19072b6fa6e34912374}{void {\bfseries largestshortestpath} ()}\label{analyser_8h_a6d3d23cf42b4c19072b6fa6e34912374}
+
+\item 
+\hypertarget{analyser_8h_a37d0477be4330c71f97b42ce80b118eb}{bool {\bfseries checkfriends} (int i, int j)}\label{analyser_8h_a37d0477be4330c71f97b42ce80b118eb}
+
+\item 
+\hypertarget{analyser_8h_a3c852b76f970a72a0b6ad7762b824bd7}{void {\bfseries clique} (int i)}\label{analyser_8h_a3c852b76f970a72a0b6ad7762b824bd7}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-A \-Documented file. \-Details. 

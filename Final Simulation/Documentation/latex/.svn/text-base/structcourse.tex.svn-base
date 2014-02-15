@@ -1,0 +1,38 @@
+\hypertarget{structcourse}{\section{course \-Struct \-Reference}
+\label{structcourse}\index{course@{course}}
+}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structcourse_ab01f7f6499f3f2e4a02b706b0e7f526e}{float {\bfseries freq}}\label{structcourse_ab01f7f6499f3f2e4a02b706b0e7f526e}
+
+\item 
+\hypertarget{structcourse_aa35ce48b1f0419757e95309d05e0aa10}{char {\bfseries name} \mbox{[}20\mbox{]}}\label{structcourse_aa35ce48b1f0419757e95309d05e0aa10}
+
+\item 
+\hypertarget{structcourse_abbabaab6d3f4a487d72b9cd580ad501e}{int {\bfseries number\-\_\-of\-\_\-sems\-\_\-floated}}\label{structcourse_abbabaab6d3f4a487d72b9cd580ad501e}
+
+\item 
+\hypertarget{structcourse_a7c307523e0ea5c5809c0af25122c2b5b}{char {\bfseries deps} \mbox{[}20\mbox{]}}\label{structcourse_a7c307523e0ea5c5809c0af25122c2b5b}
+
+\item 
+\hypertarget{structcourse_a974f52505ef4c00676274514f6d4ae85}{char {\bfseries unis} \mbox{[}100\mbox{]}}\label{structcourse_a974f52505ef4c00676274514f6d4ae85}
+
+\item 
+\hypertarget{structcourse_a5b0ca7fd0d10cbd87349591ff83f6977}{\hyperlink{structdept}{dept} $\ast$ {\bfseries dep}}\label{structcourse_a5b0ca7fd0d10cbd87349591ff83f6977}
+
+\item 
+\hypertarget{structcourse_a30337e65613c16052106ce6524923781}{vector$<$ \hyperlink{structstudent}{student} $\ast$ $>$ {\bfseries course\-\_\-stud}}\label{structcourse_a30337e65613c16052106ce6524923781}
+
+\item 
+\hypertarget{structcourse_ae09e438ef12c174cab76b4234eedabb2}{bool {\bfseries floated}}\label{structcourse_ae09e438ef12c174cab76b4234eedabb2}
+
+\item 
+\hypertarget{structcourse_a9b4f4560059e103dba24ef2e79f21d6e}{\hyperlink{structfaculty}{faculty} $\ast$ {\bfseries instructor}}\label{structcourse_a9b4f4560059e103dba24ef2e79f21d6e}
+
+\end{DoxyCompactItemize}
+
+
+\-The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{global1_8h}{global1.\-h}\end{DoxyCompactItemize}

@@ -1,0 +1,230 @@
+\hypertarget{global1_8h}{\section{global1.\-h \-File \-Reference}
+\label{global1_8h}\index{global1.\-h@{global1.\-h}}
+}
+
+
+\-Contains all the structs, classes and global variables used all over the simulation.  
+
+
+{\ttfamily \#include $<$pthread.\-h$>$}\*
+{\ttfamily \#include $<$unistd.\-h$>$}\*
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$string$>$}\*
+{\ttfamily \#include $<$stdio.\-h$>$}\*
+{\ttfamily \#include $<$sys/types.\-h$>$}\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\*
+{\ttfamily \#include $<$map$>$}\*
+{\ttfamily \#include $<$utility$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+{\ttfamily \#include \char`\"{}\-Semaphore.\-h\char`\"{}}\*
+{\ttfamily \#include $<$cstdlib$>$}\*
+{\ttfamily \#include $<$time.\-h$>$}\*
+{\ttfamily \#include $<$algorithm$>$}\*
+\subsection*{\-Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structinterest}{interest}
+\begin{DoxyCompactList}\small\item\em \-This structure stores all the intersets. \end{DoxyCompactList}\item 
+struct \hyperlink{structhostels}{hostels}
+\begin{DoxyCompactList}\small\item\em \-This structure stores all the hostels. \end{DoxyCompactList}\item 
+struct \hyperlink{structhouses}{houses}
+\begin{DoxyCompactList}\small\item\em \-This structure stores all the faculty houses. \end{DoxyCompactList}\item 
+struct \hyperlink{structcourse}{course}
+\item 
+struct \hyperlink{structstudent}{student}
+\item 
+struct \hyperlink{structfaculty}{faculty}
+\item 
+struct \hyperlink{structdept}{dept}
+\item 
+struct \hyperlink{structUNIV}{\-U\-N\-I\-V}
+\item 
+class \hyperlink{classgraph}{graph}
+\begin{DoxyCompactList}\small\item\em \-A graph class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Variables}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ string $>$ \hyperlink{global1_8h_ab1d09895ed77d82d791da4da9bfb1174}{stud\-\_\-name}
+\begin{DoxyCompactList}\small\item\em \-Vector containing names and surnames of students . \end{DoxyCompactList}\item 
+\hypertarget{global1_8h_afd745bd1e8043284397137082b2b115d}{vector$<$ string $>$ {\bfseries stud\-\_\-surname}}\label{global1_8h_afd745bd1e8043284397137082b2b115d}
+
+\item 
+pthread\-\_\-mutex\-\_\-t \hyperlink{global1_8h_ae5a4b0c3c52d86bec58ce26ac0c0071e}{fac\-Mutex}
+\begin{DoxyCompactList}\small\item\em \-Mutexes . \end{DoxyCompactList}\item 
+\hypertarget{global1_8h_a5a69c472f12bd3a81471d0d7d9c84f91}{pthread\-\_\-mutex\-\_\-t {\bfseries \-Stud\-Mutex}}\label{global1_8h_a5a69c472f12bd3a81471d0d7d9c84f91}
+
+\item 
+\hypertarget{global1_8h_aa76c3499e301bb467005bf1963828464}{pthread\-\_\-mutex\-\_\-t {\bfseries \-Course\-Mutex}}\label{global1_8h_aa76c3499e301bb467005bf1963828464}
+
+\item 
+\hypertarget{global1_8h_a967ae674c9351c4b88c805be21b12b49}{pthread\-\_\-mutex\-\_\-t {\bfseries \-Friend\-Mutex}}\label{global1_8h_a967ae674c9351c4b88c805be21b12b49}
+
+\item 
+\hypertarget{global1_8h_a1e94f93c0978ab99b352b4651ae80daf}{pthread\-\_\-mutex\-\_\-t {\bfseries courseaffac}}\label{global1_8h_a1e94f93c0978ab99b352b4651ae80daf}
+
+\item 
+\hypertarget{global1_8h_a4fe1590c5fd9d24860334888000ee32b}{pthread\-\_\-mutex\-\_\-t {\bfseries courseaf\-Stud}}\label{global1_8h_a4fe1590c5fd9d24860334888000ee32b}
+
+\item 
+\hypertarget{global1_8h_add90b1a6e840d049c7df689937d19a2e}{pthread\-\_\-mutex\-\_\-t {\bfseries fri\-Af\-All}}\label{global1_8h_add90b1a6e840d049c7df689937d19a2e}
+
+\item 
+pthread\-\_\-cond\-\_\-t \hyperlink{global1_8h_a5c00cbf5eaac794937ce3712ce368d9f}{fac\-Cond}
+\begin{DoxyCompactList}\small\item\em \-Conditional variables . \end{DoxyCompactList}\item 
+\hypertarget{global1_8h_a1dd0bd88d2e945086ae7ddff7ce81c52}{pthread\-\_\-cond\-\_\-t {\bfseries \-Stud\-Cond}}\label{global1_8h_a1dd0bd88d2e945086ae7ddff7ce81c52}
+
+\item 
+\hypertarget{global1_8h_a16ffb2ae00ae914b98f11f68b6e253da}{pthread\-\_\-cond\-\_\-t {\bfseries \-Course\-Cond}}\label{global1_8h_a16ffb2ae00ae914b98f11f68b6e253da}
+
+\item 
+\hypertarget{global1_8h_ad189d2df3422e81bcc4ce27828c82386}{pthread\-\_\-cond\-\_\-t {\bfseries \-Friend\-Cond}}\label{global1_8h_ad189d2df3422e81bcc4ce27828c82386}
+
+\item 
+\hypertarget{global1_8h_ab9c0da4d029f06f68f88bd589bbbf9d1}{pthread\-\_\-cond\-\_\-t {\bfseries condcoraffac}}\label{global1_8h_ab9c0da4d029f06f68f88bd589bbbf9d1}
+
+\item 
+\hypertarget{global1_8h_a35ab6696f46506bd6ac6f2f39e394733}{pthread\-\_\-cond\-\_\-t {\bfseries condcoraf\-Stud}}\label{global1_8h_a35ab6696f46506bd6ac6f2f39e394733}
+
+\item 
+\hypertarget{global1_8h_a242669b3bfd0b8cf7fc591729a4dd514}{pthread\-\_\-cond\-\_\-t {\bfseries fri\-Af}}\label{global1_8h_a242669b3bfd0b8cf7fc591729a4dd514}
+
+\item 
+int \hyperlink{global1_8h_a95382659a3d3bd88b640734829b9dd60}{fac\-R\-A\-N\-D\-O\-M}
+\begin{DoxyCompactList}\small\item\em \-Random seed for faculty,student,course and friend . \end{DoxyCompactList}\item 
+\hypertarget{global1_8h_ac2e5354e2bb21b393ce53bc74e947466}{int {\bfseries stud\-R\-A\-N\-D\-O\-M}}\label{global1_8h_ac2e5354e2bb21b393ce53bc74e947466}
+
+\item 
+\hypertarget{global1_8h_aaba49e8c39fc3335bad5cfd08ca97478}{int {\bfseries course\-R\-A\-N\-D\-O\-M}}\label{global1_8h_aaba49e8c39fc3335bad5cfd08ca97478}
+
+\item 
+\hypertarget{global1_8h_a7069be5387a47d69abd6ac18c42ac63f}{int {\bfseries friend\-R\-A\-N\-D\-O\-M}}\label{global1_8h_a7069be5387a47d69abd6ac18c42ac63f}
+
+\item 
+\hypertarget{global1_8h_a533391314665d6bf1b5575e9a9cd8552}{int {\bfseries p}}\label{global1_8h_a533391314665d6bf1b5575e9a9cd8552}
+
+\item 
+int \hyperlink{global1_8h_a183d88148547934e24af8d7050454029}{run\-Thd\-Stud}
+\begin{DoxyCompactList}\small\item\em \-Vector containing names and surnames of students . \end{DoxyCompactList}\item 
+\hypertarget{global1_8h_a983bc7a88c6a942f2623610df15f8475}{int {\bfseries run\-Thd\-Course}}\label{global1_8h_a983bc7a88c6a942f2623610df15f8475}
+
+\item 
+\hypertarget{global1_8h_a99781e10bd378b8c10bd49f7652d2482}{int {\bfseries run\-Thd\-Friend}}\label{global1_8h_a99781e10bd378b8c10bd49f7652d2482}
+
+\item 
+\hypertarget{global1_8h_a363bf9e74c4be4a166e2ae3090513262}{int {\bfseries alloafgen}}\label{global1_8h_a363bf9e74c4be4a166e2ae3090513262}
+
+\item 
+\hypertarget{global1_8h_a28660861136e83eb406e08b7b1493f9f}{int {\bfseries run\-Thdfac}}\label{global1_8h_a28660861136e83eb406e08b7b1493f9f}
+
+\item 
+\hypertarget{global1_8h_a64099c02e449e969364e6ff189e486ee}{int {\bfseries alloaf\-Stud}}\label{global1_8h_a64099c02e449e969364e6ff189e486ee}
+
+\item 
+key\-\_\-t \hyperlink{global1_8h_a932f4b051c5d070560395047f7661646}{gentotime}
+\begin{DoxyCompactList}\small\item\em \-Vector containing names and surnames of students . \end{DoxyCompactList}\item 
+\hypertarget{global1_8h_a2da2b12bba967f11f7d687a400901e78}{key\-\_\-t {\bfseries timetogen}}\label{global1_8h_a2da2b12bba967f11f7d687a400901e78}
+
+\item 
+int \hyperlink{global1_8h_a6724499cbe57eb3d689fb5b0c46d5799}{entryno}
+\begin{DoxyCompactList}\small\item\em \-Id's of students and faculty . \end{DoxyCompactList}\item 
+\hypertarget{global1_8h_ab8ac1598f2ed60c55e3a4371626ef2ae}{int {\bfseries facultyid}}\label{global1_8h_ab8ac1598f2ed60c55e3a4371626ef2ae}
+
+\item 
+\hypertarget{global1_8h_a0bff8c6cfa29ccfd76a638a3eaf652ee}{int {\bfseries numberofsems}}\label{global1_8h_a0bff8c6cfa29ccfd76a638a3eaf652ee}
+
+\item 
+vector$<$ string $>$ \hyperlink{global1_8h_a7083716f58c373d80683af90e1755f63}{prof\-\_\-name}
+\begin{DoxyCompactList}\small\item\em \-Vector containing names and surnames of faculty . \end{DoxyCompactList}\item 
+\hypertarget{global1_8h_a37d6c1da99963f0f5aa75e5d216d87d5}{vector$<$ string $>$ {\bfseries prof\-\_\-surname}}\label{global1_8h_a37d6c1da99963f0f5aa75e5d216d87d5}
+
+\item 
+\hypertarget{global1_8h_ae227466b0c8fdb23c81a4550a68e792a}{vector$<$ \hyperlink{structUNIV}{\-U\-N\-I\-V} $>$ \hyperlink{global1_8h_ae227466b0c8fdb23c81a4550a68e792a}{universities}}\label{global1_8h_ae227466b0c8fdb23c81a4550a68e792a}
+
+\begin{DoxyCompactList}\small\item\em \-Vector containing all the university nodes . \end{DoxyCompactList}\item 
+\hypertarget{global1_8h_a2fe8ce726a63c465473578db87d29fa3}{vector$<$ \hyperlink{structfaculty}{faculty} $\ast$ $>$ \hyperlink{global1_8h_a2fe8ce726a63c465473578db87d29fa3}{allfaculty}}\label{global1_8h_a2fe8ce726a63c465473578db87d29fa3}
+
+\begin{DoxyCompactList}\small\item\em \-Vector containing all the faculty nodes. \end{DoxyCompactList}\item 
+vector$<$ \hyperlink{structstudent}{student} $\ast$ $>$ \hyperlink{global1_8h_a69a374e0042bb222696b709c5d7c8d7f}{allstudents}
+\begin{DoxyCompactList}\small\item\em \-Vector containing all the student nodes. \end{DoxyCompactList}\item 
+map$<$ string, \hyperlink{structinterest}{interest} $\ast$ $>$ \hyperlink{global1_8h_a771c88f180533111c0d9cd2e9cb9828a}{allinterest}
+\begin{DoxyCompactList}\small\item\em \-Vector containing all the interest. \end{DoxyCompactList}\item 
+\hypertarget{global1_8h_af009f3dd64d81172c730f0b836b8b3f1}{\hyperlink{classgraph}{graph} $\ast$ {\bfseries g}}\label{global1_8h_af009f3dd64d81172c730f0b836b8b3f1}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-Contains all the structs, classes and global variables used all over the simulation. 
+
+\subsection{\-Variable \-Documentation}
+\hypertarget{global1_8h_a771c88f180533111c0d9cd2e9cb9828a}{\index{global1.\-h@{global1.\-h}!allinterest@{allinterest}}
+\index{allinterest@{allinterest}!global1.h@{global1.\-h}}
+\subsubsection[{allinterest}]{\setlength{\rightskip}{0pt plus 5cm}map$<$string,{\bf interest}$\ast$$>$ {\bf allinterest}}}\label{global1_8h_a771c88f180533111c0d9cd2e9cb9828a}
+
+
+\-Vector containing all the interest. 
+
+\-Interests are globbal across universities. \hypertarget{global1_8h_a69a374e0042bb222696b709c5d7c8d7f}{\index{global1.\-h@{global1.\-h}!allstudents@{allstudents}}
+\index{allstudents@{allstudents}!global1.h@{global1.\-h}}
+\subsubsection[{allstudents}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf student}$\ast$$>$ {\bf allstudents}}}\label{global1_8h_a69a374e0042bb222696b709c5d7c8d7f}
+
+
+\-Vector containing all the student nodes. 
+
+\-This vector gets updated after every kill and generate. \hypertarget{global1_8h_a6724499cbe57eb3d689fb5b0c46d5799}{\index{global1.\-h@{global1.\-h}!entryno@{entryno}}
+\index{entryno@{entryno}!global1.h@{global1.\-h}}
+\subsubsection[{entryno}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf entryno}}}\label{global1_8h_a6724499cbe57eb3d689fb5b0c46d5799}
+
+
+\-Id's of students and faculty . 
+
+\-Both faculty and students are given their \-Id's sequentially \hypertarget{global1_8h_a5c00cbf5eaac794937ce3712ce368d9f}{\index{global1.\-h@{global1.\-h}!fac\-Cond@{fac\-Cond}}
+\index{fac\-Cond@{fac\-Cond}!global1.h@{global1.\-h}}
+\subsubsection[{fac\-Cond}]{\setlength{\rightskip}{0pt plus 5cm}pthread\-\_\-cond\-\_\-t {\bf fac\-Cond}}}\label{global1_8h_a5c00cbf5eaac794937ce3712ce368d9f}
+
+
+\-Conditional variables . 
+
+\-For pausing threads \hypertarget{global1_8h_ae5a4b0c3c52d86bec58ce26ac0c0071e}{\index{global1.\-h@{global1.\-h}!fac\-Mutex@{fac\-Mutex}}
+\index{fac\-Mutex@{fac\-Mutex}!global1.h@{global1.\-h}}
+\subsubsection[{fac\-Mutex}]{\setlength{\rightskip}{0pt plus 5cm}pthread\-\_\-mutex\-\_\-t {\bf fac\-Mutex}}}\label{global1_8h_ae5a4b0c3c52d86bec58ce26ac0c0071e}
+
+
+\-Mutexes . 
+
+\-To lock various symbols \hypertarget{global1_8h_a95382659a3d3bd88b640734829b9dd60}{\index{global1.\-h@{global1.\-h}!fac\-R\-A\-N\-D\-O\-M@{fac\-R\-A\-N\-D\-O\-M}}
+\index{fac\-R\-A\-N\-D\-O\-M@{fac\-R\-A\-N\-D\-O\-M}!global1.h@{global1.\-h}}
+\subsubsection[{fac\-R\-A\-N\-D\-O\-M}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf fac\-R\-A\-N\-D\-O\-M}}}\label{global1_8h_a95382659a3d3bd88b640734829b9dd60}
+
+
+\-Random seed for faculty,student,course and friend . 
+
+\-Same as the ones in input file. \hypertarget{global1_8h_a932f4b051c5d070560395047f7661646}{\index{global1.\-h@{global1.\-h}!gentotime@{gentotime}}
+\index{gentotime@{gentotime}!global1.h@{global1.\-h}}
+\subsubsection[{gentotime}]{\setlength{\rightskip}{0pt plus 5cm}key\-\_\-t {\bf gentotime}}}\label{global1_8h_a932f4b051c5d070560395047f7661646}
+
+
+\-Vector containing names and surnames of students . 
+
+\-Used in random assignment of names to students \hypertarget{global1_8h_a7083716f58c373d80683af90e1755f63}{\index{global1.\-h@{global1.\-h}!prof\-\_\-name@{prof\-\_\-name}}
+\index{prof\-\_\-name@{prof\-\_\-name}!global1.h@{global1.\-h}}
+\subsubsection[{prof\-\_\-name}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$string$>$ {\bf prof\-\_\-name}}}\label{global1_8h_a7083716f58c373d80683af90e1755f63}
+
+
+\-Vector containing names and surnames of faculty . 
+
+\-Used in random assignment of names to faculty. \hypertarget{global1_8h_a183d88148547934e24af8d7050454029}{\index{global1.\-h@{global1.\-h}!run\-Thd\-Stud@{run\-Thd\-Stud}}
+\index{run\-Thd\-Stud@{run\-Thd\-Stud}!global1.h@{global1.\-h}}
+\subsubsection[{run\-Thd\-Stud}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf run\-Thd\-Stud}}}\label{global1_8h_a183d88148547934e24af8d7050454029}
+
+
+\-Vector containing names and surnames of students . 
+
+\-Used in random assignment of names to students \hypertarget{global1_8h_ab1d09895ed77d82d791da4da9bfb1174}{\index{global1.\-h@{global1.\-h}!stud\-\_\-name@{stud\-\_\-name}}
+\index{stud\-\_\-name@{stud\-\_\-name}!global1.h@{global1.\-h}}
+\subsubsection[{stud\-\_\-name}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ string $>$ {\bf stud\-\_\-name}}}\label{global1_8h_ab1d09895ed77d82d791da4da9bfb1174}
+
+
+\-Vector containing names and surnames of students . 
+
+\-Used in random assignment of names to students 

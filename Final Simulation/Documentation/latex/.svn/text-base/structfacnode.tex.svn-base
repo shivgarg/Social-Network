@@ -1,0 +1,69 @@
+\hypertarget{structfacnode}{\section{facnode \-Struct \-Reference}
+\label{structfacnode}\index{facnode@{facnode}}
+}
+
+
+\-This structure stores data of \-Faculty.  
+
+
+
+
+{\ttfamily \#include $<$analyser.\-h$>$}
+
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{structfacnode_af1643777961d3cb40fefd25ed89ecf36}{name}
+\item 
+string \hyperlink{structfacnode_ae673ce8a168b833a96e2fe1655d46b36}{surname}
+\item 
+string \hyperlink{structfacnode_ade462e4bfb53be272fe12d77f0b4625e}{entryno}
+\item 
+string \hyperlink{structfacnode_ac4a53aa78134daa1c79b08a6ce49e4eb}{hostel}
+\item 
+string \hyperlink{structfacnode_a8a6f97f6d69f8739d2ee700da6078619}{dept}
+\item 
+string \hyperlink{structfacnode_af16004344d03bb395ad76cb7f7260f28}{univ}
+\item 
+\hypertarget{structfacnode_acc43c5ea7a8743abaae478003e19dcc3}{int {\bfseries room\-No}}\label{structfacnode_acc43c5ea7a8743abaae478003e19dcc3}
+
+\item 
+vector$<$ string $>$ \hyperlink{structfacnode_ae985d5ca7175fb8b00cbb791735727a2}{interests}
+\item 
+vector$<$ string $>$ \hyperlink{structfacnode_a5ad910e1cd28ad9f59a3f008f21ec895}{courses}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-This structure stores data of \-Faculty. 
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{structfacnode_a5ad910e1cd28ad9f59a3f008f21ec895}{\index{facnode@{facnode}!courses@{courses}}
+\index{courses@{courses}!facnode@{facnode}}
+\subsubsection[{courses}]{\setlength{\rightskip}{0pt plus 5cm}{\bf facnode\-::courses}}}\label{structfacnode_a5ad910e1cd28ad9f59a3f008f21ec895}
+\-Member 'courses' contains courses of the \-Faculty currently he/she is taking \hypertarget{structfacnode_a8a6f97f6d69f8739d2ee700da6078619}{\index{facnode@{facnode}!dept@{dept}}
+\index{dept@{dept}!facnode@{facnode}}
+\subsubsection[{dept}]{\setlength{\rightskip}{0pt plus 5cm}{\bf facnode\-::dept}}}\label{structfacnode_a8a6f97f6d69f8739d2ee700da6078619}
+\-Member 'dept' contains \-Department of the \-Faculty \hypertarget{structfacnode_ade462e4bfb53be272fe12d77f0b4625e}{\index{facnode@{facnode}!entryno@{entryno}}
+\index{entryno@{entryno}!facnode@{facnode}}
+\subsubsection[{entryno}]{\setlength{\rightskip}{0pt plus 5cm}{\bf facnode\-::entryno}}}\label{structfacnode_ade462e4bfb53be272fe12d77f0b4625e}
+\-Member 'entryno' contains entry no(id) of the \-Faculty \hypertarget{structfacnode_ac4a53aa78134daa1c79b08a6ce49e4eb}{\index{facnode@{facnode}!hostel@{hostel}}
+\index{hostel@{hostel}!facnode@{facnode}}
+\subsubsection[{hostel}]{\setlength{\rightskip}{0pt plus 5cm}{\bf facnode\-::hostel}}}\label{structfacnode_ac4a53aa78134daa1c79b08a6ce49e4eb}
+\-Member 'hostel' contains house assigned to the \-Faculty. \hypertarget{structfacnode_ae985d5ca7175fb8b00cbb791735727a2}{\index{facnode@{facnode}!interests@{interests}}
+\index{interests@{interests}!facnode@{facnode}}
+\subsubsection[{interests}]{\setlength{\rightskip}{0pt plus 5cm}{\bf facnode\-::interests}}}\label{structfacnode_ae985d5ca7175fb8b00cbb791735727a2}
+\-Member 'interests' contains the interests of the \-Faculty \hypertarget{structfacnode_af1643777961d3cb40fefd25ed89ecf36}{\index{facnode@{facnode}!name@{name}}
+\index{name@{name}!facnode@{facnode}}
+\subsubsection[{name}]{\setlength{\rightskip}{0pt plus 5cm}{\bf facnode\-::name}}}\label{structfacnode_af1643777961d3cb40fefd25ed89ecf36}
+\-Member 'name' contains name of \-Faculty \hypertarget{structfacnode_ae673ce8a168b833a96e2fe1655d46b36}{\index{facnode@{facnode}!surname@{surname}}
+\index{surname@{surname}!facnode@{facnode}}
+\subsubsection[{surname}]{\setlength{\rightskip}{0pt plus 5cm}{\bf facnode\-::surname}}}\label{structfacnode_ae673ce8a168b833a96e2fe1655d46b36}
+\-Member 'surname' contains surname of \-Faculty. \hypertarget{structfacnode_af16004344d03bb395ad76cb7f7260f28}{\index{facnode@{facnode}!univ@{univ}}
+\index{univ@{univ}!facnode@{facnode}}
+\subsubsection[{univ}]{\setlength{\rightskip}{0pt plus 5cm}{\bf facnode\-::univ}}}\label{structfacnode_af16004344d03bb395ad76cb7f7260f28}
+\-Member 'univ' contains \-University of of the \-Faculty 
+
+\-The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{analyser_8h}{analyser.\-h}\end{DoxyCompactItemize}

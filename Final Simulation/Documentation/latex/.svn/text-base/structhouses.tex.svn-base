@@ -1,0 +1,41 @@
+\hypertarget{structhouses}{\section{houses \-Struct \-Reference}
+\label{structhouses}\index{houses@{houses}}
+}
+
+
+\-This structure stores all the faculty houses.  
+
+
+
+
+{\ttfamily \#include $<$global1.\-h$>$}
+
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+char \hyperlink{structhouses_ad348ad7c4afa2f9f977df3a3eb657c47}{name} \mbox{[}30\mbox{]}
+\item 
+int \hyperlink{structhouses_a1f9e437790da8853020ba514ca238547}{fill}
+\item 
+vector$<$ \hyperlink{structfaculty}{faculty} $\ast$ $>$ \hyperlink{structhouses_a336801077e911752f724095f7221350d}{house\-\_\-fac}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-This structure stores all the faculty houses. 
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{structhouses_a1f9e437790da8853020ba514ca238547}{\index{houses@{houses}!fill@{fill}}
+\index{fill@{fill}!houses@{houses}}
+\subsubsection[{fill}]{\setlength{\rightskip}{0pt plus 5cm}{\bf houses\-::fill}}}\label{structhouses_a1f9e437790da8853020ba514ca238547}
+\-Member 'fill' denotes no. of faculty in this house locality. \hypertarget{structhouses_a336801077e911752f724095f7221350d}{\index{houses@{houses}!house\-\_\-fac@{house\-\_\-fac}}
+\index{house\-\_\-fac@{house\-\_\-fac}!houses@{houses}}
+\subsubsection[{house\-\_\-fac}]{\setlength{\rightskip}{0pt plus 5cm}{\bf houses\-::house\-\_\-fac}}}\label{structhouses_a336801077e911752f724095f7221350d}
+\-Member 'house\-\_\-fac' contains list of faculty with that house locality. \hypertarget{structhouses_ad348ad7c4afa2f9f977df3a3eb657c47}{\index{houses@{houses}!name@{name}}
+\index{name@{name}!houses@{houses}}
+\subsubsection[{name}]{\setlength{\rightskip}{0pt plus 5cm}{\bf houses\-::name}}}\label{structhouses_ad348ad7c4afa2f9f977df3a3eb657c47}
+\-Member 'name' contains name of house 
+
+\-The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{global1_8h}{global1.\-h}\end{DoxyCompactItemize}
