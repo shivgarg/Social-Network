@@ -8,13 +8,6 @@
 
 ####################################### PART A #######################################
 
-parser.h      --> contains all the structures required in the programs.
-parser.cpp    --> contains the file parser.
-generator.cpp --> contains the thread functions.
-network.h     --> contains data structure reqired to store student node and faculty node
-timekeeper.h  --> synchronizes with generator, accepts and wakes up threads
-main.cpp      --> main function starts timekeeper and generator
-
 -This program produces "log.txt" , "graph.graphml".
 	--log.txt : Contains all log of all the events that took place in the simulation.
 	--graph.graphml : Contains the generated graph saved in graphml format.
