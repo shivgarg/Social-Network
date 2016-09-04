@@ -6,33 +6,33 @@
 - This project has been tested and developed on linux computers .
 - C++ pthreads, message queues ,semaphores and mutexes etc have been used for achieving the desired Network Simulator and Analyser. 
 - This project has been distributed in 2 parts.
-..1. Network Generation,
-..2. User queries over generated network.
+	1. Network Generation,
+	2. User queries over generated network.
 
 ### PartA
 
 - This program produces "log.txt" , "graph.graphml".
-..- log.txt : Contains all log of all the events that took place in the simulation.
+- log.txt : Contains all log of all the events that took place in the simulation.
 ..- graph.graphml : Contains the generated graph saved in graphml format.
 
 - A sample input file has been provided named as "SocialNetworkEnv.inp".
 - The generic Structure of the graphml file is :
-..-	UNIVERSITY university_name
-..-	DEPARTMENT dept_name num_faculty num_students_per_year semester_dept_courses
-..-	semeseter_nondept_courses
-..-	COURSE course_number dept_that_offers frequency_per_year
-..-	INTEREST interest_name popularity
-..-	HOSTEL hostel_name
-..-	HOUSELOCALITY locality_name
-..-	FRIENDSHIPRATE req_per_minute
-..-	OPENNESS out_probability
-..-	FRIENDLINESS recip_probability
-..-	RANDOMSEED faculty_random student_random course_random friend_random
+	1.	UNIVERSITY university_name
+	2.	DEPARTMENT dept_name num_faculty num_students_per_year semester_dept_courses
+	3.	semeseter_nondept_courses
+	4.	COURSE course_number dept_that_offers frequency_per_year
+	5.	INTEREST interest_name popularity
+	6.	HOSTEL hostel_name
+	7.	HOUSELOCALITY locality_name
+	8.	FRIENDSHIPRATE req_per_minute
+	9.	OPENNESS out_probability
+	10.	FRIENDLINESS recip_probability
+	11.	RANDOMSEED faculty_random student_random course_random friend_random
 - This program produces "log.txt" , "graph.graphml" .
-..-	log.txt : Contains all log of all the events that took place in the simulation.
-..-	graph.graphml : Contains the generated graph saved in graphml format.
+	1.	log.txt : Contains all log of all the events that took place in the simulation.
+	2.	graph.graphml : Contains the generated graph saved in graphml format.
 
-####################################### PART B ######################################
+### PART B
 
 Gyani: reads query from std::in and sends it to analyzer
 
