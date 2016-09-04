@@ -1,33 +1,36 @@
--This is a discrete time event social Network Simulator and Analyser.
--This project was created as part of a course(CSP301) project under Prof. Subodh Kumar , IIT Delhi , 2013.
--This project has been tested and developed on linux computers .
--c++ pthreads, message queues ,semaphores and mutexes etc have been used for achieving the desired Network Simulator and Analyser. 
--This project has been distributed in 2 parts.
-	1) Network Generation,
-	2) User queries over generated network.
+#Social Network Generation using Multiple threads
 
-####################################### PART A #######################################
+### Description
+- This is a discrete time event social Network Simulator and Analyser.
+- This project was created as part of a course(CSP301) project under Prof. Subodh Kumar , IIT Delhi , 2013.
+- This project has been tested and developed on linux computers .
+- C++ pthreads, message queues ,semaphores and mutexes etc have been used for achieving the desired Network Simulator and Analyser. 
+- This project has been distributed in 2 parts.
+..1. Network Generation,
+..2. User queries over generated network.
 
--This program produces "log.txt" , "graph.graphml".
-	--log.txt : Contains all log of all the events that took place in the simulation.
-	--graph.graphml : Contains the generated graph saved in graphml format.
+### PartA
 
--A sample input file has been provided named as "SocialNetworkEnv.inp".
--The generic Structure of the graphml file is :
-	UNIVERSITY university_name
-	DEPARTMENT dept_name num_faculty num_students_per_year semester_dept_courses
-	semeseter_nondept_courses
-	COURSE course_number dept_that_offers frequency_per_year
-	INTEREST interest_name popularity
-	HOSTEL hostel_name
-	HOUSELOCALITY locality_name
-	FRIENDSHIPRATE req_per_minute
-	OPENNESS out_probability
-	FRIENDLINESS recip_probability
-	RANDOMSEED faculty_random student_random course_random friend_random
--This program produces "log.txt" , "graph.graphml" .
-	log.txt : Contains all log of all the events that took place in the simulation.
-	graph.graphml : Contains the generated graph saved in graphml format.
+- This program produces "log.txt" , "graph.graphml".
+..- log.txt : Contains all log of all the events that took place in the simulation.
+..- graph.graphml : Contains the generated graph saved in graphml format.
+
+- A sample input file has been provided named as "SocialNetworkEnv.inp".
+- The generic Structure of the graphml file is :
+..-	UNIVERSITY university_name
+..-	DEPARTMENT dept_name num_faculty num_students_per_year semester_dept_courses
+..-	semeseter_nondept_courses
+..-	COURSE course_number dept_that_offers frequency_per_year
+..-	INTEREST interest_name popularity
+..-	HOSTEL hostel_name
+..-	HOUSELOCALITY locality_name
+..-	FRIENDSHIPRATE req_per_minute
+..-	OPENNESS out_probability
+..-	FRIENDLINESS recip_probability
+..-	RANDOMSEED faculty_random student_random course_random friend_random
+- This program produces "log.txt" , "graph.graphml" .
+..-	log.txt : Contains all log of all the events that took place in the simulation.
+..-	graph.graphml : Contains the generated graph saved in graphml format.
 
 ####################################### PART B ######################################
 
