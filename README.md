@@ -41,7 +41,7 @@ Analyzer: first reads the graphml file and recieves query from Gyani and returns
 Algorithms.cpp : contains all the required algorithms
 					1. Dijkstra's algorithm
 					2. Floyd-Warshall algorithm
-					3. Bredth First Search algorithms
+					3. Breadth First Search algorithms
 
 Network.cpp: read graphml function, and stores the nodes
 
@@ -56,3 +56,20 @@ Network.cpp: read graphml function, and stores the nodes
 	5. The importance of the given person (the importance is the number of the all-pair shortest paths that include that person)
 	6. Is any of the friends of a given person more important that him/her
 -Simple dictionary is maintained to detect the type of query from the keywords in the query.
+
+## Compiling
+
+Run **make** for the makefile present in the Final Simulation folder.
+
+## Running 
+
+- parta.sh would generate the network for analysis purposes. It takes two command line parameters as inputs.
+	1.	Social Network Environment file(format as defined above). A sample is provided in the folder named as SocialNetworkEnv.inp.
+	2. 	The number of years for which the network has to be started.(it starts from year 2012).
+- partb.sh would parse the network generated and answer various queries asked . Details of the queries have been mentioned. It takes as input the network which is saved as graph.graphml. 
+
+One can make changes to the parameters to generate social network and use it .
+
+### Documentation
+The code was documented using doxygen. The documentation is present in the top level directory of the repository.
+
